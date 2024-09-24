@@ -11,6 +11,10 @@ int main()
     const double tankGCapacity = 20.0; // gallons in tank
     const double mpgTown = 23.5;       // miles per gallon driving in town
     const double mpgHighway = 28.9;    // miles per gallon driving on the highway
+
+    // Calculations for distance fdriving on town and highway
+    double distanceInTown = tankGCapacity * mpgTown;
+    double distanceOnHighway = tankGCapacity * mpgHighway;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
