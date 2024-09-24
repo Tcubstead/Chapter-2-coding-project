@@ -3,18 +3,24 @@
 // Chapter 2 Programing Project
 // 2_Distance_Per_Tank
 
+#include <iomanip>
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    const double tankGCapacity = 20.0; // gallons in tank
-    const double mpgTown = 23.5;       // miles per gallon driving in town
-    const double mpgHighway = 28.9;    // miles per gallon driving on the highway
+    float tankGCapacity = 20.0; // gallons in tank
+    float mpgTown = 23.5;       // miles per gallon driving in town
+    float mpgHighway = 28.9;    // miles per gallon driving on the highway
 
     // Calculations for distance fdriving on town and highway
     double distanceInTown = tankGCapacity * mpgTown;
     double distanceOnHighway = tankGCapacity * mpgHighway;
+
+    // Display distance travelled
+    cout << setprecision(4);
+    cout << "Distance the car can travel in town: " << distanceInTown << " miles" << endl;
+    cout << "Distance the car can travel on the highway: " << distanceOnHighway << " miles" << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
