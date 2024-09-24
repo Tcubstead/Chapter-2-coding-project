@@ -8,7 +8,9 @@ using namespace std;
 
 int main()
 {
-   
+    const int totCustomers = 16500;     // Total number of customers surveyed
+    const double percentPurchasing = 0.15; // Percentage of customers that purchased energy drinks
+    const double percentCitrus = 0.58;     // Percentage of customers that bought energy drinks that preferred citrus flavor
 
     return 0;
 }
