@@ -1,11 +1,14 @@
-// Chapter 2 coding project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Thomas Cubstead
+// 9/24/24
+// Chapter 2 Programing Project
+// 1_Ocean_Levels
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
