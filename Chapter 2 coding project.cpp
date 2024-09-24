@@ -13,7 +13,14 @@ int main()
     // Calculate the change in water level after 5, 7, and 10 years
     double waterLevelChange5Years = waterRisePerYear * 5;
     double waterLevelChange7Years = waterRisePerYear * 7;
-    double waterRiseIn10Years = waterRisePerYear * 10;
+    double waterLevelChange10Years = waterRisePerYear * 10;
+
+    // Display results
+    cout << "Ocean level rise in 5 years: " << waterLevelChange5Years << " mm" << endl;
+    cout << "Ocean level rise in 7 years: " << waterLevelChange7Years << " mm" << endl;
+    cout << "Ocean level rise in 10 years: " << waterLevelChange10Years << " mm" << endl;
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
