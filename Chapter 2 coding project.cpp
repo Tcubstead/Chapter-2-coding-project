@@ -1,5 +1,7 @@
 // Thomas Cubstead
-//
+// 9/24/24
+// Chapter 2 Programing Project
+// 2_Distance_Per_Tank
 
 #include <iostream>
 using namespace std;
