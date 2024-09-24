@@ -8,8 +8,12 @@ using namespace std;
 
 int main()
 {
-    const double wrisePerYear = 1.5; // water level rise in millimeters per year
-    cout << "Hello World!\n";
+    const double waterRisePerYear = 1.5; // water level rise in millimeters per year
+    
+    // Calculate the change in water level after 5, 7, and 10 years
+    double waterLevelChange5Years = waterRisePerYear * 5;
+    double waterLevelChange7Years = waterRisePerYear * 7;
+    double waterRiseIn10Years = waterRisePerYear * 10;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
