@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    const double wrisePerYear = 1.5; // water level rise in millimeters per year
     cout << "Hello World!\n";
 }
 
