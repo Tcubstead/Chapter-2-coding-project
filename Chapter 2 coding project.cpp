@@ -14,9 +14,14 @@ int main()
 
     //calculations for customers purchasing energy drinks and those of them that preferred citris flavoring
     int customersPurchasingEDrinks = static_cast<int>(totCustomers * percentPurchasing);
-    int customersPCitris = static_cast<int>(customersPurchasingEDrinks * percentCitrus);
+    int customersPCitrus = static_cast<int>(customersPurchasingEDrinks * percentCitrus);
 
-    
+    // Display survey results 
+    cout << "Approximate number of customers purchasing one or more energy drinks per week: "
+        << customersPurchasingEDrinks << endl;
+    cout << "Approximate number of customers preferring citrus-flavored energy drinks: "
+        << customersPCitrus << endl;
+
     return 0;
 }
 
