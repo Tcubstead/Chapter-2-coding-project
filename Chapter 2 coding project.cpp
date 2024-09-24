@@ -1,7 +1,8 @@
-// Chapter 2 coding project.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Thomas Cubstead
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
