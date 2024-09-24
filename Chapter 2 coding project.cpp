@@ -12,6 +12,11 @@ int main()
     const double percentPurchasing = 0.15; // Percentage of customers that purchased energy drinks
     const double percentCitrus = 0.58;     // Percentage of customers that bought energy drinks that preferred citrus flavor
 
+    //calculations for customers purchasing energy drinks and those of them that preferred citris flavoring
+    int customersPurchasingEDrinks = static_cast<int>(totCustomers * percentPurchasing);
+    int customersPCitris = static_cast<int>(customersPurchasingEDrinks * percentCitrus);
+
+    
     return 0;
 }
 
